@@ -1,0 +1,90 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+body {
+    font-family: ‘Roboto Mono’, monospace;
+}
+
+nav {
+    width: 73%;
+    display: inline-block;
+    margin-left: auto;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+ul img {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0px;
+    float: right;
+    width: 50%;
+    margin-left: auto;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    margin-left: 500px;
+}
+
+.button {
+    text-align: center;
+    float: right;
+    border-radius: 4px;
+}
+
+section p {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    vertical-align: baseline;
+    padding: 20px;
+}
+
+.content{
+    width: 500px;
+    margin: auto;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 50x;
+}
+footer p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 20%;
+    text-align: center;
+}
+
+footer img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px; 
+    display: inline-block;
+}
