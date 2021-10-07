@@ -44,8 +44,8 @@ ul {
 }
 
 .heroImg {
-    height: 600px;
-    padding: 25px;
+    height: 200px;
+    padding: 10px;
     display: inline-block;
 }
 
@@ -75,10 +75,19 @@ section p {
 .flexContainer {
     display: flex;
     margin-top: 10%;;
+    flex-direction: row;
 }
 
-.flexContainer div {
-    width: 33%;
+.workGrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;  
+}
+
+button {
+    text-align: center;
+    align-items: center;
+    margin-left: 140px;
 }
 
 footer {
