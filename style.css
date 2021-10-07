@@ -46,8 +46,16 @@ ul {
 .heroImg {
     height: 600px;
     padding: 25px;
-    margin-left: 500px;
+    display: inline-block;
 }
+
+.containerBlock {
+    display: inline-block;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+
 
 .button {
     text-align: center;
@@ -64,9 +72,13 @@ section p {
     padding: 20px;
 }
 
-.content{
-    width: 500px;
-    margin: auto;
+.flexContainer {
+    display: flex;
+    margin-top: 10%;;
+}
+
+.flexContainer div {
+    width: 33%;
 }
 
 footer {
