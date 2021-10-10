@@ -44,32 +44,26 @@ ul {
 }
 
 .heroImg {
-    height: 200px;
+    height: 500px;
     padding: 10px;
-    display: inline-block;
+    display: flex;
+    font-size: 18px;
 }
 
-.containerBlock {
-    display: inline-block;
-    height: 50px;
-    padding: 10px;
-    font-size: 18px;
+.containerBlockleft {
+    width: 50%;
+    padding-top: 100px;
+}
+
+.containerBlockright {
+    padding-left: 100px;
+    padding-right: 20px;
 }
 
 
 .button {
     text-align: center;
-    float: right;
     border-radius: 4px;
-}
-
-section p {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    outline: 0px;
-    vertical-align: baseline;
-    padding: 20px;
 }
 
 .flexContainer {
@@ -80,25 +74,40 @@ section p {
 
 .workGrid {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-evenly;  
+    padding-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "PuppyLoveImage SFJazzImage"
+      "PuppyLoveText SFJazzText"; 
 }
 
-button {
-    text-align: center;
-    align-items: center;
-    margin-left: 140px;
+.PuppyLoveImage {
+    grid-area: PuppyLoveImage;
+}
+
+.PuppyLoveText {
+    grid-area: PuppyLoveText;
+}
+
+.SFJazzImage {
+    grid-area: SFJazzImage;
+}
+
+.SFJazzText {
+    grid-area: SFJazzText;
 }
 
 footer {
     background-color: #ffffff;
     padding: 50x;
 }
+
 footer p {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 20%;
     text-align: center;
 }
